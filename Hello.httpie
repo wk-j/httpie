@@ -1,0 +1,13 @@
+http -v PUT httpbin.org/put API-Key:foo hello=world
+
+// delete
+// java
+
+http DELETE example.org/todos/7
+
+// request
+
+http www.google.com search=='HTTPie logo' tbm==isch
+
+// localhost
+http :/foo
