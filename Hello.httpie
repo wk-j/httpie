@@ -1,13 +1,13 @@
 http -v PUT httpbin.org/put API-Key:foo hello=world
 
-// delete
-// java
-
+// separate command by (//)
 http DELETE example.org/todos/7
 
-// request
-
+// request google search
 http www.google.com search=='HTTPie logo' tbm==isch
+```
 
-// localhost
-http :/foo
+// multiple line
+http www.google.com
+    search=='HTTPie logo'
+    tbm==isch
