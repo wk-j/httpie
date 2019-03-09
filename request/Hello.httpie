@@ -1,6 +1,6 @@
 http -v PUT httpbin.org/put API-Key:foo hello=world
 
-// separate command by (//)
+// separate command with (//)
 http DELETE example.org/todos/7
 
 // request google search

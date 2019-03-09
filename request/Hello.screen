@@ -1,0 +1,14 @@
+
+dotnet --info
+
+
+// Hello world
+dotnet --help
+
+
+// info
+dotnet --info
+
+
+// list
+nuget list thailand
